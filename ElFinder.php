@@ -4,7 +4,7 @@
  * Time: 23:44
  */
 
-namespace mihaildev\elfinder;
+namespace zertex\elfinder;
 
 use Yii;
 use yii\base\Widget as BaseWidjet;
@@ -14,7 +14,7 @@ use yii\helpers\Json;
 
 /**
  * Class Widget
- * @package mihaildev\elfinder
+ * @package zertex\elfinder
  */
 
 class ElFinder extends BaseWidjet{

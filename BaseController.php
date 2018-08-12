@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
 */
 
-namespace mihaildev\elfinder;
+namespace zertex\elfinder;
 use Yii;
 use yii\filters\AccessControl;
 use yii\helpers\ArrayHelper;

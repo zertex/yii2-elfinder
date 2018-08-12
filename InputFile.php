@@ -4,7 +4,7 @@
  * Time: 1:27
  */
 
-namespace mihaildev\elfinder;
+namespace zertex\elfinder;
 
 use Yii;
 use yii\helpers\Html;

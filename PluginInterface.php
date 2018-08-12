@@ -4,7 +4,7 @@
  * Time: 20:10
  */
 
-namespace mihaildev\elfinder;
+namespace zertex\elfinder;
 
 
 abstract class PluginInterface

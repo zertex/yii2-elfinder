@@ -4,9 +4,9 @@
  * Time: 13:26
  */
 
-namespace mihaildev\elfinder;
+namespace zertex\elfinder;
 
-use mihaildev\elfinder\volume\Local;
+use zertex\elfinder\volume\Local;
 use Yii;
 use yii\helpers\ArrayHelper;
 
@@ -14,7 +14,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * Class Controller
- * @package mihaildev\elfinder
+ * @package zertex\elfinder
  * @property array $options
  */
 
@@ -42,7 +42,7 @@ class Controller extends BaseController{
 
 			$root = Yii::createObject($root);
 
-			/** @var \mihaildev\elfinder\volume\Local $root*/
+			/** @var \zertex\elfinder\volume\Local $root*/
 
 			if($root->isAvailable())
 				$this->_options['roots'][] = $root->getRoot();

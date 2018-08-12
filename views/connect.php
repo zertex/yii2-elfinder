@@ -4,8 +4,8 @@
  * @var array $plugin
  */
 
-define('ELFINDER_IMG_PARENT_URL', \mihaildev\elfinder\Assets::getPathUrl());
+define('ELFINDER_IMG_PARENT_URL', \zertx\elfinder\Assets::getPathUrl());
 
 // run elFinder
-$connector = new elFinderConnector(new \mihaildev\elfinder\elFinderApi($options, $plugin));
+$connector = new elFinderConnector(new \zertex\elfinder\elFinderApi($options, $plugin));
 $connector->run();

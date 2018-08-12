@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
 */
 
-namespace mihaildev\elfinder;
+namespace zertex\elfinder;
 use yii\base\Widget;
 use yii\helpers\Html;
 use yii\helpers\Json;

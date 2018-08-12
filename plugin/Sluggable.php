@@ -4,10 +4,10 @@
  * Time: 0:14
  */
 
-namespace mihaildev\elfinder\plugin;
+namespace zertex\elfinder\plugin;
 
 
-use mihaildev\elfinder\PluginInterface;
+use zertex\elfinder\PluginInterface;
 use yii\helpers\Inflector;
 
 class Sluggable extends PluginInterface

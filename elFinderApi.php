@@ -4,7 +4,7 @@
  * Time: 23:11
  */
 
-namespace mihaildev\elfinder;
+namespace zertex\elfinder;
 
 
 class elFinderApi extends \elFinder
